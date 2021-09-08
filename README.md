@@ -9,4 +9,4 @@ Desde los datos de catastro del IGAC, ya que son datos abiertos, se pueden carga
 
 `modelo_prueba.model3`
 
-Este modelo fue creado por Juan Melo, basado en las explicaciones de Leonardo Gutiérrez.
+Este modelo fue creado por Juan Melo, basado en las explicaciones de Leonardo Gutiérrez @leoguti.
