@@ -8,3 +8,5 @@ No es un repositorio como tal de código estructurado, pero si un lugar dónde c
 Desde los datos de catastro del IGAC, ya que son datos abiertos, se pueden cargar en OSM, ya que tienen licencia compatible. Lo único es que hay que hacer varios pasos, y el objetivo de este modelo de QGIS es acelerar dichos pasos.
 
 `modelo_prueba.model3`
+
+Este modelo fue creado por Juan Melo, basado en las explicaciones de Leonardo Gutiérrez.
