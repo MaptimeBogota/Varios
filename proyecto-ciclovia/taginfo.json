@@ -6,6 +6,7 @@
     "description": "To map all highways that are part of the Ciclovía",
     "project_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclov%C3%ADas",
     "doc_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclov%C3%ADas#Mapping",
+    "icon_url": "https://github.com/MaptimeBogota/Varios/raw/main/proyecto-ciclovia/logoCuadrado.png",
     "contact_name": "Andres Gomez Casanova-AngocA",
     "contact_email": "maptimebogota@gmail.com"
   },
@@ -13,31 +14,37 @@
     {
       "key": "route",
       "value": "bicycle",
+      "object_types": "relation",
       "description": "To group all segments of ciclovía"
     },
     {
       "key": "network",
       "value": "lcn",
+      "object_types": "relation",
       "description": "To describe the highways that belongs to ciclovía"
     },
     {
       "key": "operator",
       "value": "IDRD",
+      "object_types": "relation",
       "description": "To show who controls the ciclovías"
     },
     {
       "key": "motor_vehicle:conditional",
       "value": "no @ (Su 07:00-14:00)",
+      "object_types": "way",
       "description": "To show the car restrictions on ciclovías"
     },
     {
       "key": "bicycle:conditional",
       "value": "yes @ (Su 07:00-14:00)",
+      "object_types": "way",
       "description": "To show the bicycles are allowed on ciclovías"
     },
     {
       "key": "foot:conditional",
       "value": "yes @ (Su 07:00-14:00)",
+      "object_types": "way",
       "description": "To show the pedestrians are allowed on ciclovías"
     },
     {
