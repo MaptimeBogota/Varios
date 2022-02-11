@@ -4,8 +4,8 @@
   "project": {
     "name": "Ciclovía in Bogotá",
     "description": "To map all highways that are part of the Ciclovía",
-    "project_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclov%C3%ADas",
-    "doc_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclov%C3%ADas#Mapping",
+    "project_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclovías",
+    "doc_url": "https://wiki.openstreetmap.org/wiki/Colombia/Project-Ciclovías#Mapping",
     "icon_url": "https://github.com/MaptimeBogota/Varios/raw/main/proyecto-ciclovia/logoCuadrado.png",
     "contact_name": "Andres Gomez Casanova-AngocA",
     "contact_email": "maptimebogota@gmail.com"
