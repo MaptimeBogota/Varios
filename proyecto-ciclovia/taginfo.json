@@ -31,32 +31,76 @@
     },
     {
       "key": "motor_vehicle:conditional",
-      "value": "no @ (Su 07:00-14:00)",
+      "value": "no @ (Su,PH 07:00-14:00)",
       "object_types": ["way"],
       "description": "To show the car restrictions on ciclovías"
     },
     {
       "key": "bicycle:conditional",
-      "value": "yes @ (Su 07:00-14:00)",
+      "value": "yes @ (Su,PH 07:00-14:00)",
       "object_types": ["way"],
       "description": "To show the bicycles are allowed on ciclovías"
     },
     {
       "key": "foot:conditional",
-      "value": "yes @ (Su 07:00-14:00)",
+      "value": "yes @ (Su,PH 07:00-14:00)",
       "object_types": ["way"],
       "description": "To show the pedestrians are allowed on ciclovías"
     },
     {
-      "key": "vehicle:lanes",
-      "description": "To show the normal lanes for cars"
+      "key": "oneway:bicycle:conditional",
+      "value": "no @ (Su,PH 07:00-14:00)",
+      "object_types": ["way"],
+      "description": "To show that bicycles can got both ways during ciclovía"
     },
     {
-      "key": "vehicle:lanes:conditional",
-      "description": "To show the lanes for cars and for bicycles during ciclovía"
+      "key": "restriction:conditional",
+      "value": "no_right_turn @ (Su,PH 07:00-14:00)",
+      "object_types": ["relation"],
+      "description": "When it is not possible to turn right during ciclovía"
+    },
+    {
+      "key": "restriction:conditional",
+      "value": "no_left_turn @ (Su,PH 07:00-14:00)",
+      "object_types": ["relation"],
+      "description": "When it is not possible to turn left during ciclovía"
+    },
+    {
+      "key": "restriction:conditional",
+      "value": "only_straight_on @ (Su,PH 07:00-14:00)",
+      "object_types": ["relation"],
+      "description": "When it is only possible to continue straight during ciclovía"
+    },
+    {
+      "key": "restriction:conditional",
+      "value": "no_straight_on @ (Su,PH 07:00-14:00)",
+      "object_types": ["relation"],
+      "description": "When it is not possible to continue straight during ciclovía"
+    },
+    {
+      "key": "restriction:conditional",
+      "value": "only_turn_right @ (Su,PH 07:00-14:00)",
+      "object_types": ["relation"],
+      "description": "When it is only possible to turn right during ciclovía"
+    },
+    {
+      "key": "motor_vehicle:lanes:conditional",
+      "object_types": ["way"],
+      "description": "To show the lanes for cars during ciclovía"
+    },
+    {
+      "key": "bicycle:lanes:conditional",
+      "object_types": ["way"],
+      "description": "To show the lanes for bicycles during ciclovía"
+    },
+    {
+      "key": "foot:lanes:conditional",
+      "object_types": ["way"],
+      "description": "To show the lanes for pedestrians during ciclovía"
     },
     {
       "key": "oneway:lanes:conditional",
+      "object_types": ["way"],
       "description": "To show the direction for cars and for bicycles during ciclovía"
     }
   ]
